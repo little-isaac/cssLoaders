@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Aug, 2016, 10:17:23 PM
+    Author     : milind
+*/
+@import '../_mixins.scss';
+
+$animationLength: 1.5s;
+$animationRadius: 12px;
+$dotSize: 8px;
+
+.loader2 {
+    .loader { 
+        position: relative; 
+        width: $animationRadius * 3 + $dotSize;
+        height: $dotSize; 
+        margin: $animationRadius auto; 
+    }
+    .dot {
+        display: inline-block;
+        width: $dotSize;
+        height: $dotSize;
+        border-radius: $dotSize * 0.5;
+        background: #ccc;
+        position: absolute;
+    }
+
+    .dot_1 {
+         @include animation('animateDot1 '+$animationLength+ ' linear infinite');
+        left: $animationRadius;
+        background: #e579b8; 
+    }
+
+    .dot_2 {
+        @include animation('animateDot2 '+$animationLength+ ' linear infinite');
+        @include animationDelay(1,$animationLength / 3,0);
+        left: $animationRadius * 2;
+    }
+
+    .dot_3 {
+        @include animation('animateDot3 '+$animationLength+ ' linear infinite');
+        left: $animationRadius;
+    }
+
+    .dot_4 {
+        @include animation('animateDot4 '+$animationLength+ ' linear infinite');
+        @include animationDelay(1,$animationLength / 3,0);
+        left: $animationRadius * 2;
+    }
+}
+@include keyframes(animateDot1) {
+    0%{ transform: rotate(0deg) translateX(-$animationRadius); }
+    25% { transform: rotate(180deg) translateX(-$animationRadius); }
+    75% { transform: rotate(180deg) translateX(-$animationRadius); }
+    100% { transform: rotate(360deg) translateX(-$animationRadius); }
+}
+@include keyframes(animateDot2) {
+   0%{ transform: rotate(-0deg) translateX(-$animationRadius); }
+    25% { transform: rotate(-180deg) translateX(-$animationRadius); }
+    75% { transform: rotate(-180deg) translateX(-$animationRadius); }
+    100% { transform: rotate(-360deg) translateX(-$animationRadius); }
+}
+@include keyframes(animateDot3) {
+   0%{ transform: rotate(0deg) translateX($animationRadius); }
+    25% { transform: rotate(180deg) translateX($animationRadius); }
+    75% { transform: rotate(180deg) translateX($animationRadius); }
+    100% { transform: rotate(360deg) translateX($animationRadius); }
+}
+@include keyframes(animateDot4) {
+    0%{ transform: rotate(-0deg) translateX($animationRadius); }
+    25% { transform: rotate(-180deg) translateX($animationRadius); }
+    75% { transform: rotate(-180deg) translateX($animationRadius); }
+    100% { transform: rotate(-360deg) translateX($animationRadius); }
+}
