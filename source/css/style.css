@@ -1,0 +1,1263 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Aug, 2016, 8:40:24 PM
+    Author     : milind
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Aug, 2016, 9:00:14 PM
+    Author     : milind
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Aug, 2016, 10:28:31 PM
+    Author     : milind
+*/
+.loader1 {
+  background: #292b37; }
+  .loader1 span, .loader1 p {
+    motion-path: path("M67.3,17.8c0-9.3-4.8-14.5-13.8-14.5C41.9,3.2,35.7,17,35.7,17s-6.2,13.8-17.8,13.8C10,30.8,4,25.5,4,17.7 C4, 9.6, 10, 3.2, 17.8, 3.2C29.4, 3.2, 35.7, 17, 35.7, 17s6.2, 13.8, 17.8, 13.8C61.4, 30.8, 67.3, 24.8, 67.3, 17.8z");
+    position: absolute; }
+  .loader1 span {
+    color: #fff;
+    font-size: 12px;
+    -webkit-animation: loader1 1.4s linear infinite;
+    -moz-animation: loader1 1.4s linear infinite;
+    -ms-animation: loader1 1.4s linear infinite;
+    -o-animation: loader1 1.4s linear infinite;
+    animation: loader1 1.4s linear infinite;
+    motion-rotation: reverse; }
+  .loader1 p {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    opacity: 0;
+    margin: 0;
+    background: #fff;
+    -webkit-animation: loader1 1.4s linear infinite, loader1dot linear forwards;
+    -moz-animation: loader1 1.4s linear infinite, loader1dot linear forwards;
+    -ms-animation: loader1 1.4s linear infinite, loader1dot linear forwards;
+    -o-animation: loader1 1.4s linear infinite, loader1dot linear forwards;
+    animation: loader1 1.4s linear infinite, loader1dot linear forwards; }
+    .loader1 p:nth-of-type(1) {
+      background: #bf4040;
+      -webkit-animation-delay: 0.015s;
+      animation-delay: 0.015s; }
+    .loader1 p:nth-of-type(2) {
+      background: #bf5540;
+      -webkit-animation-delay: 0.03s;
+      animation-delay: 0.03s; }
+    .loader1 p:nth-of-type(3) {
+      background: #bf6a40;
+      -webkit-animation-delay: 0.045s;
+      animation-delay: 0.045s; }
+    .loader1 p:nth-of-type(4) {
+      background: #bf8040;
+      -webkit-animation-delay: 0.06s;
+      animation-delay: 0.06s; }
+    .loader1 p:nth-of-type(5) {
+      background: #bf9540;
+      -webkit-animation-delay: 0.075s;
+      animation-delay: 0.075s; }
+    .loader1 p:nth-of-type(6) {
+      background: #bfaa40;
+      -webkit-animation-delay: 0.09s;
+      animation-delay: 0.09s; }
+    .loader1 p:nth-of-type(7) {
+      background: #bfbf40;
+      -webkit-animation-delay: 0.105s;
+      animation-delay: 0.105s; }
+    .loader1 p:nth-of-type(8) {
+      background: #aabf40;
+      -webkit-animation-delay: 0.12s;
+      animation-delay: 0.12s; }
+    .loader1 p:nth-of-type(9) {
+      background: #95bf40;
+      -webkit-animation-delay: 0.135s;
+      animation-delay: 0.135s; }
+    .loader1 p:nth-of-type(10) {
+      background: #80bf40;
+      -webkit-animation-delay: 0.15s;
+      animation-delay: 0.15s; }
+    .loader1 p:nth-of-type(11) {
+      background: #6abf40;
+      -webkit-animation-delay: 0.165s;
+      animation-delay: 0.165s; }
+    .loader1 p:nth-of-type(12) {
+      background: #55bf40;
+      -webkit-animation-delay: 0.18s;
+      animation-delay: 0.18s; }
+    .loader1 p:nth-of-type(13) {
+      background: #40bf40;
+      -webkit-animation-delay: 0.195s;
+      animation-delay: 0.195s; }
+    .loader1 p:nth-of-type(14) {
+      background: #40bf55;
+      -webkit-animation-delay: 0.21s;
+      animation-delay: 0.21s; }
+    .loader1 p:nth-of-type(15) {
+      background: #40bf6a;
+      -webkit-animation-delay: 0.225s;
+      animation-delay: 0.225s; }
+    .loader1 p:nth-of-type(16) {
+      background: #40bf80;
+      -webkit-animation-delay: 0.24s;
+      animation-delay: 0.24s; }
+    .loader1 p:nth-of-type(17) {
+      background: #40bf95;
+      -webkit-animation-delay: 0.255s;
+      animation-delay: 0.255s; }
+    .loader1 p:nth-of-type(18) {
+      background: #40bfaa;
+      -webkit-animation-delay: 0.27s;
+      animation-delay: 0.27s; }
+    .loader1 p:nth-of-type(19) {
+      background: #40bfbf;
+      -webkit-animation-delay: 0.285s;
+      animation-delay: 0.285s; }
+    .loader1 p:nth-of-type(20) {
+      background: #40aabf;
+      -webkit-animation-delay: 0.3s;
+      animation-delay: 0.3s; }
+    .loader1 p:nth-of-type(21) {
+      background: #4095bf;
+      -webkit-animation-delay: 0.315s;
+      animation-delay: 0.315s; }
+    .loader1 p:nth-of-type(22) {
+      background: #4080bf;
+      -webkit-animation-delay: 0.33s;
+      animation-delay: 0.33s; }
+    .loader1 p:nth-of-type(23) {
+      background: #406abf;
+      -webkit-animation-delay: 0.345s;
+      animation-delay: 0.345s; }
+    .loader1 p:nth-of-type(24) {
+      background: #4055bf;
+      -webkit-animation-delay: 0.36s;
+      animation-delay: 0.36s; }
+    .loader1 p:nth-of-type(25) {
+      background: #4040bf;
+      -webkit-animation-delay: 0.375s;
+      animation-delay: 0.375s; }
+    .loader1 p:nth-of-type(26) {
+      background: #5540bf;
+      -webkit-animation-delay: 0.39s;
+      animation-delay: 0.39s; }
+    .loader1 p:nth-of-type(27) {
+      background: #6a40bf;
+      -webkit-animation-delay: 0.405s;
+      animation-delay: 0.405s; }
+    .loader1 p:nth-of-type(28) {
+      background: #8040bf;
+      -webkit-animation-delay: 0.42s;
+      animation-delay: 0.42s; }
+    .loader1 p:nth-of-type(29) {
+      background: #9540bf;
+      -webkit-animation-delay: 0.435s;
+      animation-delay: 0.435s; }
+    .loader1 p:nth-of-type(30) {
+      background: #aa40bf;
+      -webkit-animation-delay: 0.45s;
+      animation-delay: 0.45s; }
+    .loader1 p:nth-of-type(31) {
+      background: #bf40bf;
+      -webkit-animation-delay: 0.465s;
+      animation-delay: 0.465s; }
+    .loader1 p:nth-of-type(32) {
+      background: #bf40aa;
+      -webkit-animation-delay: 0.48s;
+      animation-delay: 0.48s; }
+    .loader1 p:nth-of-type(33) {
+      background: #bf4095;
+      -webkit-animation-delay: 0.495s;
+      animation-delay: 0.495s; }
+    .loader1 p:nth-of-type(34) {
+      background: #bf4080;
+      -webkit-animation-delay: 0.51s;
+      animation-delay: 0.51s; }
+    .loader1 p:nth-of-type(35) {
+      background: #bf406a;
+      -webkit-animation-delay: 0.525s;
+      animation-delay: 0.525s; }
+
+@-webkit-keyframes loader1 {
+  to {
+    motion-offset: 100%; } }
+@-moz-keyframes loader1 {
+  to {
+    motion-offset: 100%; } }
+@-ms-keyframes loader1 {
+  to {
+    motion-offset: 100%; } }
+@-o-keyframes loader1 {
+  to {
+    motion-offset: 100%; } }
+@keyframes loader1 {
+  to {
+    motion-offset: 100%; } }
+@-webkit-keyframes loader1dot {
+  to {
+    opacity: 1; } }
+@-moz-keyframes loader1dot {
+  to {
+    opacity: 1; } }
+@-ms-keyframes loader1dot {
+  to {
+    opacity: 1; } }
+@-o-keyframes loader1dot {
+  to {
+    opacity: 1; } }
+@keyframes loader1dot {
+  to {
+    opacity: 1; } }
+@supports not (motion-rotation: auto) {
+  body:before {
+    content: 'Sorry! you browser not supports!';
+    background: #dc3b3b;
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+    color: #fff; } }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Aug, 2016, 10:17:23 PM
+    Author     : milind
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Aug, 2016, 10:28:31 PM
+    Author     : milind
+*/
+.loader2 .loader {
+  position: relative;
+  width: 44px;
+  height: 8px;
+  margin: 12px auto; }
+.loader2 .dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background: #ccc;
+  position: absolute; }
+.loader2 .dot_1 {
+  -webkit-animation: animateDot1 1.5s linear infinite;
+  -moz-animation: animateDot1 1.5s linear infinite;
+  -ms-animation: animateDot1 1.5s linear infinite;
+  -o-animation: animateDot1 1.5s linear infinite;
+  animation: animateDot1 1.5s linear infinite;
+  left: 12px;
+  background: #e579b8; }
+.loader2 .dot_2 {
+  -webkit-animation: animateDot2 1.5s linear infinite;
+  -moz-animation: animateDot2 1.5s linear infinite;
+  -ms-animation: animateDot2 1.5s linear infinite;
+  -o-animation: animateDot2 1.5s linear infinite;
+  animation: animateDot2 1.5s linear infinite;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  left: 24px; }
+.loader2 .dot_3 {
+  -webkit-animation: animateDot3 1.5s linear infinite;
+  -moz-animation: animateDot3 1.5s linear infinite;
+  -ms-animation: animateDot3 1.5s linear infinite;
+  -o-animation: animateDot3 1.5s linear infinite;
+  animation: animateDot3 1.5s linear infinite;
+  left: 12px; }
+.loader2 .dot_4 {
+  -webkit-animation: animateDot4 1.5s linear infinite;
+  -moz-animation: animateDot4 1.5s linear infinite;
+  -ms-animation: animateDot4 1.5s linear infinite;
+  -o-animation: animateDot4 1.5s linear infinite;
+  animation: animateDot4 1.5s linear infinite;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  left: 24px; }
+
+@-webkit-keyframes animateDot1 {
+  0% {
+    transform: rotate(0deg) translateX(-12px); }
+  25% {
+    transform: rotate(180deg) translateX(-12px); }
+  75% {
+    transform: rotate(180deg) translateX(-12px); }
+  100% {
+    transform: rotate(360deg) translateX(-12px); } }
+@-moz-keyframes animateDot1 {
+  0% {
+    transform: rotate(0deg) translateX(-12px); }
+  25% {
+    transform: rotate(180deg) translateX(-12px); }
+  75% {
+    transform: rotate(180deg) translateX(-12px); }
+  100% {
+    transform: rotate(360deg) translateX(-12px); } }
+@-ms-keyframes animateDot1 {
+  0% {
+    transform: rotate(0deg) translateX(-12px); }
+  25% {
+    transform: rotate(180deg) translateX(-12px); }
+  75% {
+    transform: rotate(180deg) translateX(-12px); }
+  100% {
+    transform: rotate(360deg) translateX(-12px); } }
+@-o-keyframes animateDot1 {
+  0% {
+    transform: rotate(0deg) translateX(-12px); }
+  25% {
+    transform: rotate(180deg) translateX(-12px); }
+  75% {
+    transform: rotate(180deg) translateX(-12px); }
+  100% {
+    transform: rotate(360deg) translateX(-12px); } }
+@keyframes animateDot1 {
+  0% {
+    transform: rotate(0deg) translateX(-12px); }
+  25% {
+    transform: rotate(180deg) translateX(-12px); }
+  75% {
+    transform: rotate(180deg) translateX(-12px); }
+  100% {
+    transform: rotate(360deg) translateX(-12px); } }
+@-webkit-keyframes animateDot2 {
+  0% {
+    transform: rotate(0deg) translateX(-12px); }
+  25% {
+    transform: rotate(-180deg) translateX(-12px); }
+  75% {
+    transform: rotate(-180deg) translateX(-12px); }
+  100% {
+    transform: rotate(-360deg) translateX(-12px); } }
+@-moz-keyframes animateDot2 {
+  0% {
+    transform: rotate(0deg) translateX(-12px); }
+  25% {
+    transform: rotate(-180deg) translateX(-12px); }
+  75% {
+    transform: rotate(-180deg) translateX(-12px); }
+  100% {
+    transform: rotate(-360deg) translateX(-12px); } }
+@-ms-keyframes animateDot2 {
+  0% {
+    transform: rotate(0deg) translateX(-12px); }
+  25% {
+    transform: rotate(-180deg) translateX(-12px); }
+  75% {
+    transform: rotate(-180deg) translateX(-12px); }
+  100% {
+    transform: rotate(-360deg) translateX(-12px); } }
+@-o-keyframes animateDot2 {
+  0% {
+    transform: rotate(0deg) translateX(-12px); }
+  25% {
+    transform: rotate(-180deg) translateX(-12px); }
+  75% {
+    transform: rotate(-180deg) translateX(-12px); }
+  100% {
+    transform: rotate(-360deg) translateX(-12px); } }
+@keyframes animateDot2 {
+  0% {
+    transform: rotate(0deg) translateX(-12px); }
+  25% {
+    transform: rotate(-180deg) translateX(-12px); }
+  75% {
+    transform: rotate(-180deg) translateX(-12px); }
+  100% {
+    transform: rotate(-360deg) translateX(-12px); } }
+@-webkit-keyframes animateDot3 {
+  0% {
+    transform: rotate(0deg) translateX(12px); }
+  25% {
+    transform: rotate(180deg) translateX(12px); }
+  75% {
+    transform: rotate(180deg) translateX(12px); }
+  100% {
+    transform: rotate(360deg) translateX(12px); } }
+@-moz-keyframes animateDot3 {
+  0% {
+    transform: rotate(0deg) translateX(12px); }
+  25% {
+    transform: rotate(180deg) translateX(12px); }
+  75% {
+    transform: rotate(180deg) translateX(12px); }
+  100% {
+    transform: rotate(360deg) translateX(12px); } }
+@-ms-keyframes animateDot3 {
+  0% {
+    transform: rotate(0deg) translateX(12px); }
+  25% {
+    transform: rotate(180deg) translateX(12px); }
+  75% {
+    transform: rotate(180deg) translateX(12px); }
+  100% {
+    transform: rotate(360deg) translateX(12px); } }
+@-o-keyframes animateDot3 {
+  0% {
+    transform: rotate(0deg) translateX(12px); }
+  25% {
+    transform: rotate(180deg) translateX(12px); }
+  75% {
+    transform: rotate(180deg) translateX(12px); }
+  100% {
+    transform: rotate(360deg) translateX(12px); } }
+@keyframes animateDot3 {
+  0% {
+    transform: rotate(0deg) translateX(12px); }
+  25% {
+    transform: rotate(180deg) translateX(12px); }
+  75% {
+    transform: rotate(180deg) translateX(12px); }
+  100% {
+    transform: rotate(360deg) translateX(12px); } }
+@-webkit-keyframes animateDot4 {
+  0% {
+    transform: rotate(0deg) translateX(12px); }
+  25% {
+    transform: rotate(-180deg) translateX(12px); }
+  75% {
+    transform: rotate(-180deg) translateX(12px); }
+  100% {
+    transform: rotate(-360deg) translateX(12px); } }
+@-moz-keyframes animateDot4 {
+  0% {
+    transform: rotate(0deg) translateX(12px); }
+  25% {
+    transform: rotate(-180deg) translateX(12px); }
+  75% {
+    transform: rotate(-180deg) translateX(12px); }
+  100% {
+    transform: rotate(-360deg) translateX(12px); } }
+@-ms-keyframes animateDot4 {
+  0% {
+    transform: rotate(0deg) translateX(12px); }
+  25% {
+    transform: rotate(-180deg) translateX(12px); }
+  75% {
+    transform: rotate(-180deg) translateX(12px); }
+  100% {
+    transform: rotate(-360deg) translateX(12px); } }
+@-o-keyframes animateDot4 {
+  0% {
+    transform: rotate(0deg) translateX(12px); }
+  25% {
+    transform: rotate(-180deg) translateX(12px); }
+  75% {
+    transform: rotate(-180deg) translateX(12px); }
+  100% {
+    transform: rotate(-360deg) translateX(12px); } }
+@keyframes animateDot4 {
+  0% {
+    transform: rotate(0deg) translateX(12px); }
+  25% {
+    transform: rotate(-180deg) translateX(12px); }
+  75% {
+    transform: rotate(-180deg) translateX(12px); }
+  100% {
+    transform: rotate(-360deg) translateX(12px); } }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Aug, 2016, 10:47:30 PM
+    Author     : milind
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Aug, 2016, 10:28:31 PM
+    Author     : milind
+*/
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+@-moz-keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+@-ms-keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+@-o-keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+.loader3 {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  border: 0.25rem solid rgba(255, 255, 255, 0.2);
+  border-top-color: white;
+  -webkit-animation: spin 1s infinite linear;
+  -moz-animation: spin 1s infinite linear;
+  -ms-animation: spin 1s infinite linear;
+  -o-animation: spin 1s infinite linear;
+  animation: spin 1s infinite linear; }
+  .loader3--double {
+    border-style: double;
+    border-width: .5rem; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Aug, 2016, 10:51:31 PM
+    Author     : milind
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Aug, 2016, 10:28:31 PM
+    Author     : milind
+*/
+@-webkit-keyframes loader4 {
+  50% {
+    background: white; } }
+@-moz-keyframes loader4 {
+  50% {
+    background: white; } }
+@-ms-keyframes loader4 {
+  50% {
+    background: white; } }
+@-o-keyframes loader4 {
+  50% {
+    background: white; } }
+@keyframes loader4 {
+  50% {
+    background: white; } }
+.loader4 {
+  position: relative;
+  width: 6px;
+  height: 24px;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-animation: loader4 750ms infinite;
+  -moz-animation: loader4 750ms infinite;
+  -ms-animation: loader4 750ms infinite;
+  -o-animation: loader4 750ms infinite;
+  animation: loader4 750ms infinite;
+  -webkit-animation-delay: 250ms;
+  animation-delay: 250ms; }
+  .loader4:before, .loader4:after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 16px;
+    width: 6px;
+    background: rgba(255, 255, 255, 0.2);
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-animation: loader4 750ms infinite;
+    -moz-animation: loader4 750ms infinite;
+    -ms-animation: loader4 750ms infinite;
+    -o-animation: loader4 750ms infinite;
+    animation: loader4 750ms infinite; }
+  .loader4:before {
+    left: -12px; }
+  .loader4:after {
+    left: 12px;
+    -webkit-animation-delay: 500ms;
+    animation-delay: 500ms; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Aug, 2016, 11:09:07 PM
+    Author     : milind
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Aug, 2016, 10:28:31 PM
+    Author     : milind
+*/
+.loader5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -2.7em;
+  margin-left: -2.7em;
+  width: 5.4em;
+  height: 5.4em; }
+  .loader5 .hill {
+    position: absolute;
+    width: 7.1em;
+    height: 7.1em;
+    top: 1.7em;
+    left: 1.7em;
+    background-color: transparent;
+    border-left: 4px solid whitesmoke;
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  .loader5 .rollingBox {
+    position: absolute;
+    left: 0;
+    bottom: -9px;
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 3px solid whitesmoke;
+    border-radius: 15%;
+    -moz-transform: translate(0, -1em) rotate(-45deg);
+    -o-transform: translate(0, -1em) rotate(-45deg);
+    -ms-transform: translate(0, -1em) rotate(-45deg);
+    -webkit-transform: translate(0, -1em) rotate(-45deg);
+    transform: translate(0, -1em) rotate(-45deg);
+    -webkit-animation: push 2.5s cubic-bezier(.79, 0, .47, .97) infinite;;
+    -moz-animation: push 2.5s cubic-bezier(.79, 0, .47, .97) infinite;;
+    -ms-animation: push 2.5s cubic-bezier(.79, 0, .47, .97) infinite;;
+    -o-animation: push 2.5s cubic-bezier(.79, 0, .47, .97) infinite;;
+    animation: push 2.5s cubic-bezier(.79, 0, .47, .97) infinite;; }
+
+@-webkit-keyframes push {
+  0% {
+    -moz-transform: translate(0, -1em) rotate(-45deg);
+    -o-transform: translate(0, -1em) rotate(-45deg);
+    -ms-transform: translate(0, -1em) rotate(-45deg);
+    -webkit-transform: translate(0, -1em) rotate(-45deg);
+    transform: translate(0, -1em) rotate(-45deg); }
+  5% {
+    -moz-transform: translate(0, -1em) rotate(-50deg);
+    -o-transform: translate(0, -1em) rotate(-50deg);
+    -ms-transform: translate(0, -1em) rotate(-50deg);
+    -webkit-transform: translate(0, -1em) rotate(-50deg);
+    transform: translate(0, -1em) rotate(-50deg); }
+  20% {
+    -moz-transform: translate(1em, -2em) rotate(47deg);
+    -o-transform: translate(1em, -2em) rotate(47deg);
+    -ms-transform: translate(1em, -2em) rotate(47deg);
+    -webkit-transform: translate(1em, -2em) rotate(47deg);
+    transform: translate(1em, -2em) rotate(47deg); }
+  25% {
+    -moz-transform: translate(1em, -2em) rotate(45deg);
+    -o-transform: translate(1em, -2em) rotate(45deg);
+    -ms-transform: translate(1em, -2em) rotate(45deg);
+    -webkit-transform: translate(1em, -2em) rotate(45deg);
+    transform: translate(1em, -2em) rotate(45deg); }
+  30% {
+    -moz-transform: translate(1em, -2em) rotate(40deg);
+    -o-transform: translate(1em, -2em) rotate(40deg);
+    -ms-transform: translate(1em, -2em) rotate(40deg);
+    -webkit-transform: translate(1em, -2em) rotate(40deg);
+    transform: translate(1em, -2em) rotate(40deg); }
+  45% {
+    -moz-transform: translate(2em, -3em) rotate(137deg);
+    -o-transform: translate(2em, -3em) rotate(137deg);
+    -ms-transform: translate(2em, -3em) rotate(137deg);
+    -webkit-transform: translate(2em, -3em) rotate(137deg);
+    transform: translate(2em, -3em) rotate(137deg); }
+  50% {
+    -moz-transform: translate(2em, -3em) rotate(135deg);
+    -o-transform: translate(2em, -3em) rotate(135deg);
+    -ms-transform: translate(2em, -3em) rotate(135deg);
+    -webkit-transform: translate(2em, -3em) rotate(135deg);
+    transform: translate(2em, -3em) rotate(135deg); }
+  55% {
+    -moz-transform: translate(2em, -3em) rotate(130deg);
+    -o-transform: translate(2em, -3em) rotate(130deg);
+    -ms-transform: translate(2em, -3em) rotate(130deg);
+    -webkit-transform: translate(2em, -3em) rotate(130deg);
+    transform: translate(2em, -3em) rotate(130deg); }
+  70% {
+    -moz-transform: translate(3em, -4em) rotate(217deg);
+    -o-transform: translate(3em, -4em) rotate(217deg);
+    -ms-transform: translate(3em, -4em) rotate(217deg);
+    -webkit-transform: translate(3em, -4em) rotate(217deg);
+    transform: translate(3em, -4em) rotate(217deg); }
+  75% {
+    -moz-transform: translate(3em, -4em) rotate(220deg);
+    -o-transform: translate(3em, -4em) rotate(220deg);
+    -ms-transform: translate(3em, -4em) rotate(220deg);
+    -webkit-transform: translate(3em, -4em) rotate(220deg);
+    transform: translate(3em, -4em) rotate(220deg); }
+  100% {
+    -moz-transform: translate(0, -1em) rotate(-225deg);
+    -o-transform: translate(0, -1em) rotate(-225deg);
+    -ms-transform: translate(0, -1em) rotate(-225deg);
+    -webkit-transform: translate(0, -1em) rotate(-225deg);
+    transform: translate(0, -1em) rotate(-225deg); } }
+@-moz-keyframes push {
+  0% {
+    -moz-transform: translate(0, -1em) rotate(-45deg);
+    -o-transform: translate(0, -1em) rotate(-45deg);
+    -ms-transform: translate(0, -1em) rotate(-45deg);
+    -webkit-transform: translate(0, -1em) rotate(-45deg);
+    transform: translate(0, -1em) rotate(-45deg); }
+  5% {
+    -moz-transform: translate(0, -1em) rotate(-50deg);
+    -o-transform: translate(0, -1em) rotate(-50deg);
+    -ms-transform: translate(0, -1em) rotate(-50deg);
+    -webkit-transform: translate(0, -1em) rotate(-50deg);
+    transform: translate(0, -1em) rotate(-50deg); }
+  20% {
+    -moz-transform: translate(1em, -2em) rotate(47deg);
+    -o-transform: translate(1em, -2em) rotate(47deg);
+    -ms-transform: translate(1em, -2em) rotate(47deg);
+    -webkit-transform: translate(1em, -2em) rotate(47deg);
+    transform: translate(1em, -2em) rotate(47deg); }
+  25% {
+    -moz-transform: translate(1em, -2em) rotate(45deg);
+    -o-transform: translate(1em, -2em) rotate(45deg);
+    -ms-transform: translate(1em, -2em) rotate(45deg);
+    -webkit-transform: translate(1em, -2em) rotate(45deg);
+    transform: translate(1em, -2em) rotate(45deg); }
+  30% {
+    -moz-transform: translate(1em, -2em) rotate(40deg);
+    -o-transform: translate(1em, -2em) rotate(40deg);
+    -ms-transform: translate(1em, -2em) rotate(40deg);
+    -webkit-transform: translate(1em, -2em) rotate(40deg);
+    transform: translate(1em, -2em) rotate(40deg); }
+  45% {
+    -moz-transform: translate(2em, -3em) rotate(137deg);
+    -o-transform: translate(2em, -3em) rotate(137deg);
+    -ms-transform: translate(2em, -3em) rotate(137deg);
+    -webkit-transform: translate(2em, -3em) rotate(137deg);
+    transform: translate(2em, -3em) rotate(137deg); }
+  50% {
+    -moz-transform: translate(2em, -3em) rotate(135deg);
+    -o-transform: translate(2em, -3em) rotate(135deg);
+    -ms-transform: translate(2em, -3em) rotate(135deg);
+    -webkit-transform: translate(2em, -3em) rotate(135deg);
+    transform: translate(2em, -3em) rotate(135deg); }
+  55% {
+    -moz-transform: translate(2em, -3em) rotate(130deg);
+    -o-transform: translate(2em, -3em) rotate(130deg);
+    -ms-transform: translate(2em, -3em) rotate(130deg);
+    -webkit-transform: translate(2em, -3em) rotate(130deg);
+    transform: translate(2em, -3em) rotate(130deg); }
+  70% {
+    -moz-transform: translate(3em, -4em) rotate(217deg);
+    -o-transform: translate(3em, -4em) rotate(217deg);
+    -ms-transform: translate(3em, -4em) rotate(217deg);
+    -webkit-transform: translate(3em, -4em) rotate(217deg);
+    transform: translate(3em, -4em) rotate(217deg); }
+  75% {
+    -moz-transform: translate(3em, -4em) rotate(220deg);
+    -o-transform: translate(3em, -4em) rotate(220deg);
+    -ms-transform: translate(3em, -4em) rotate(220deg);
+    -webkit-transform: translate(3em, -4em) rotate(220deg);
+    transform: translate(3em, -4em) rotate(220deg); }
+  100% {
+    -moz-transform: translate(0, -1em) rotate(-225deg);
+    -o-transform: translate(0, -1em) rotate(-225deg);
+    -ms-transform: translate(0, -1em) rotate(-225deg);
+    -webkit-transform: translate(0, -1em) rotate(-225deg);
+    transform: translate(0, -1em) rotate(-225deg); } }
+@-ms-keyframes push {
+  0% {
+    -moz-transform: translate(0, -1em) rotate(-45deg);
+    -o-transform: translate(0, -1em) rotate(-45deg);
+    -ms-transform: translate(0, -1em) rotate(-45deg);
+    -webkit-transform: translate(0, -1em) rotate(-45deg);
+    transform: translate(0, -1em) rotate(-45deg); }
+  5% {
+    -moz-transform: translate(0, -1em) rotate(-50deg);
+    -o-transform: translate(0, -1em) rotate(-50deg);
+    -ms-transform: translate(0, -1em) rotate(-50deg);
+    -webkit-transform: translate(0, -1em) rotate(-50deg);
+    transform: translate(0, -1em) rotate(-50deg); }
+  20% {
+    -moz-transform: translate(1em, -2em) rotate(47deg);
+    -o-transform: translate(1em, -2em) rotate(47deg);
+    -ms-transform: translate(1em, -2em) rotate(47deg);
+    -webkit-transform: translate(1em, -2em) rotate(47deg);
+    transform: translate(1em, -2em) rotate(47deg); }
+  25% {
+    -moz-transform: translate(1em, -2em) rotate(45deg);
+    -o-transform: translate(1em, -2em) rotate(45deg);
+    -ms-transform: translate(1em, -2em) rotate(45deg);
+    -webkit-transform: translate(1em, -2em) rotate(45deg);
+    transform: translate(1em, -2em) rotate(45deg); }
+  30% {
+    -moz-transform: translate(1em, -2em) rotate(40deg);
+    -o-transform: translate(1em, -2em) rotate(40deg);
+    -ms-transform: translate(1em, -2em) rotate(40deg);
+    -webkit-transform: translate(1em, -2em) rotate(40deg);
+    transform: translate(1em, -2em) rotate(40deg); }
+  45% {
+    -moz-transform: translate(2em, -3em) rotate(137deg);
+    -o-transform: translate(2em, -3em) rotate(137deg);
+    -ms-transform: translate(2em, -3em) rotate(137deg);
+    -webkit-transform: translate(2em, -3em) rotate(137deg);
+    transform: translate(2em, -3em) rotate(137deg); }
+  50% {
+    -moz-transform: translate(2em, -3em) rotate(135deg);
+    -o-transform: translate(2em, -3em) rotate(135deg);
+    -ms-transform: translate(2em, -3em) rotate(135deg);
+    -webkit-transform: translate(2em, -3em) rotate(135deg);
+    transform: translate(2em, -3em) rotate(135deg); }
+  55% {
+    -moz-transform: translate(2em, -3em) rotate(130deg);
+    -o-transform: translate(2em, -3em) rotate(130deg);
+    -ms-transform: translate(2em, -3em) rotate(130deg);
+    -webkit-transform: translate(2em, -3em) rotate(130deg);
+    transform: translate(2em, -3em) rotate(130deg); }
+  70% {
+    -moz-transform: translate(3em, -4em) rotate(217deg);
+    -o-transform: translate(3em, -4em) rotate(217deg);
+    -ms-transform: translate(3em, -4em) rotate(217deg);
+    -webkit-transform: translate(3em, -4em) rotate(217deg);
+    transform: translate(3em, -4em) rotate(217deg); }
+  75% {
+    -moz-transform: translate(3em, -4em) rotate(220deg);
+    -o-transform: translate(3em, -4em) rotate(220deg);
+    -ms-transform: translate(3em, -4em) rotate(220deg);
+    -webkit-transform: translate(3em, -4em) rotate(220deg);
+    transform: translate(3em, -4em) rotate(220deg); }
+  100% {
+    -moz-transform: translate(0, -1em) rotate(-225deg);
+    -o-transform: translate(0, -1em) rotate(-225deg);
+    -ms-transform: translate(0, -1em) rotate(-225deg);
+    -webkit-transform: translate(0, -1em) rotate(-225deg);
+    transform: translate(0, -1em) rotate(-225deg); } }
+@-o-keyframes push {
+  0% {
+    -moz-transform: translate(0, -1em) rotate(-45deg);
+    -o-transform: translate(0, -1em) rotate(-45deg);
+    -ms-transform: translate(0, -1em) rotate(-45deg);
+    -webkit-transform: translate(0, -1em) rotate(-45deg);
+    transform: translate(0, -1em) rotate(-45deg); }
+  5% {
+    -moz-transform: translate(0, -1em) rotate(-50deg);
+    -o-transform: translate(0, -1em) rotate(-50deg);
+    -ms-transform: translate(0, -1em) rotate(-50deg);
+    -webkit-transform: translate(0, -1em) rotate(-50deg);
+    transform: translate(0, -1em) rotate(-50deg); }
+  20% {
+    -moz-transform: translate(1em, -2em) rotate(47deg);
+    -o-transform: translate(1em, -2em) rotate(47deg);
+    -ms-transform: translate(1em, -2em) rotate(47deg);
+    -webkit-transform: translate(1em, -2em) rotate(47deg);
+    transform: translate(1em, -2em) rotate(47deg); }
+  25% {
+    -moz-transform: translate(1em, -2em) rotate(45deg);
+    -o-transform: translate(1em, -2em) rotate(45deg);
+    -ms-transform: translate(1em, -2em) rotate(45deg);
+    -webkit-transform: translate(1em, -2em) rotate(45deg);
+    transform: translate(1em, -2em) rotate(45deg); }
+  30% {
+    -moz-transform: translate(1em, -2em) rotate(40deg);
+    -o-transform: translate(1em, -2em) rotate(40deg);
+    -ms-transform: translate(1em, -2em) rotate(40deg);
+    -webkit-transform: translate(1em, -2em) rotate(40deg);
+    transform: translate(1em, -2em) rotate(40deg); }
+  45% {
+    -moz-transform: translate(2em, -3em) rotate(137deg);
+    -o-transform: translate(2em, -3em) rotate(137deg);
+    -ms-transform: translate(2em, -3em) rotate(137deg);
+    -webkit-transform: translate(2em, -3em) rotate(137deg);
+    transform: translate(2em, -3em) rotate(137deg); }
+  50% {
+    -moz-transform: translate(2em, -3em) rotate(135deg);
+    -o-transform: translate(2em, -3em) rotate(135deg);
+    -ms-transform: translate(2em, -3em) rotate(135deg);
+    -webkit-transform: translate(2em, -3em) rotate(135deg);
+    transform: translate(2em, -3em) rotate(135deg); }
+  55% {
+    -moz-transform: translate(2em, -3em) rotate(130deg);
+    -o-transform: translate(2em, -3em) rotate(130deg);
+    -ms-transform: translate(2em, -3em) rotate(130deg);
+    -webkit-transform: translate(2em, -3em) rotate(130deg);
+    transform: translate(2em, -3em) rotate(130deg); }
+  70% {
+    -moz-transform: translate(3em, -4em) rotate(217deg);
+    -o-transform: translate(3em, -4em) rotate(217deg);
+    -ms-transform: translate(3em, -4em) rotate(217deg);
+    -webkit-transform: translate(3em, -4em) rotate(217deg);
+    transform: translate(3em, -4em) rotate(217deg); }
+  75% {
+    -moz-transform: translate(3em, -4em) rotate(220deg);
+    -o-transform: translate(3em, -4em) rotate(220deg);
+    -ms-transform: translate(3em, -4em) rotate(220deg);
+    -webkit-transform: translate(3em, -4em) rotate(220deg);
+    transform: translate(3em, -4em) rotate(220deg); }
+  100% {
+    -moz-transform: translate(0, -1em) rotate(-225deg);
+    -o-transform: translate(0, -1em) rotate(-225deg);
+    -ms-transform: translate(0, -1em) rotate(-225deg);
+    -webkit-transform: translate(0, -1em) rotate(-225deg);
+    transform: translate(0, -1em) rotate(-225deg); } }
+@keyframes push {
+  0% {
+    -moz-transform: translate(0, -1em) rotate(-45deg);
+    -o-transform: translate(0, -1em) rotate(-45deg);
+    -ms-transform: translate(0, -1em) rotate(-45deg);
+    -webkit-transform: translate(0, -1em) rotate(-45deg);
+    transform: translate(0, -1em) rotate(-45deg); }
+  5% {
+    -moz-transform: translate(0, -1em) rotate(-50deg);
+    -o-transform: translate(0, -1em) rotate(-50deg);
+    -ms-transform: translate(0, -1em) rotate(-50deg);
+    -webkit-transform: translate(0, -1em) rotate(-50deg);
+    transform: translate(0, -1em) rotate(-50deg); }
+  20% {
+    -moz-transform: translate(1em, -2em) rotate(47deg);
+    -o-transform: translate(1em, -2em) rotate(47deg);
+    -ms-transform: translate(1em, -2em) rotate(47deg);
+    -webkit-transform: translate(1em, -2em) rotate(47deg);
+    transform: translate(1em, -2em) rotate(47deg); }
+  25% {
+    -moz-transform: translate(1em, -2em) rotate(45deg);
+    -o-transform: translate(1em, -2em) rotate(45deg);
+    -ms-transform: translate(1em, -2em) rotate(45deg);
+    -webkit-transform: translate(1em, -2em) rotate(45deg);
+    transform: translate(1em, -2em) rotate(45deg); }
+  30% {
+    -moz-transform: translate(1em, -2em) rotate(40deg);
+    -o-transform: translate(1em, -2em) rotate(40deg);
+    -ms-transform: translate(1em, -2em) rotate(40deg);
+    -webkit-transform: translate(1em, -2em) rotate(40deg);
+    transform: translate(1em, -2em) rotate(40deg); }
+  45% {
+    -moz-transform: translate(2em, -3em) rotate(137deg);
+    -o-transform: translate(2em, -3em) rotate(137deg);
+    -ms-transform: translate(2em, -3em) rotate(137deg);
+    -webkit-transform: translate(2em, -3em) rotate(137deg);
+    transform: translate(2em, -3em) rotate(137deg); }
+  50% {
+    -moz-transform: translate(2em, -3em) rotate(135deg);
+    -o-transform: translate(2em, -3em) rotate(135deg);
+    -ms-transform: translate(2em, -3em) rotate(135deg);
+    -webkit-transform: translate(2em, -3em) rotate(135deg);
+    transform: translate(2em, -3em) rotate(135deg); }
+  55% {
+    -moz-transform: translate(2em, -3em) rotate(130deg);
+    -o-transform: translate(2em, -3em) rotate(130deg);
+    -ms-transform: translate(2em, -3em) rotate(130deg);
+    -webkit-transform: translate(2em, -3em) rotate(130deg);
+    transform: translate(2em, -3em) rotate(130deg); }
+  70% {
+    -moz-transform: translate(3em, -4em) rotate(217deg);
+    -o-transform: translate(3em, -4em) rotate(217deg);
+    -ms-transform: translate(3em, -4em) rotate(217deg);
+    -webkit-transform: translate(3em, -4em) rotate(217deg);
+    transform: translate(3em, -4em) rotate(217deg); }
+  75% {
+    -moz-transform: translate(3em, -4em) rotate(220deg);
+    -o-transform: translate(3em, -4em) rotate(220deg);
+    -ms-transform: translate(3em, -4em) rotate(220deg);
+    -webkit-transform: translate(3em, -4em) rotate(220deg);
+    transform: translate(3em, -4em) rotate(220deg); }
+  100% {
+    -moz-transform: translate(0, -1em) rotate(-225deg);
+    -o-transform: translate(0, -1em) rotate(-225deg);
+    -ms-transform: translate(0, -1em) rotate(-225deg);
+    -webkit-transform: translate(0, -1em) rotate(-225deg);
+    transform: translate(0, -1em) rotate(-225deg); } }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Aug, 2016, 11:30:43 PM
+    Author     : milind
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Aug, 2016, 10:28:31 PM
+    Author     : milind
+*/
+.loader6 {
+  color: #fff;
+  font-family: Consolas, Menlo, Monaco, monospace;
+  font-weight: bold;
+  font-size: 10px;
+  opacity: 0.8; }
+  .loader6 span {
+    display: inline-block;
+    -webkit-animation: pulse 0.4s alternate infinite ease-in-out;
+    -moz-animation: pulse 0.4s alternate infinite ease-in-out;
+    -ms-animation: pulse 0.4s alternate infinite ease-in-out;
+    -o-animation: pulse 0.4s alternate infinite ease-in-out;
+    animation: pulse 0.4s alternate infinite ease-in-out; }
+    .loader6 span:nth-child(odd) {
+      -webkit-animation-delay: 0.4s;
+      animation-delay: 0.4s; }
+
+@-webkit-keyframes pulse {
+  to {
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50); } }
+@-moz-keyframes pulse {
+  to {
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50); } }
+@-ms-keyframes pulse {
+  to {
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50); } }
+@-o-keyframes pulse {
+  to {
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50); } }
+@keyframes pulse {
+  to {
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50); } }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Aug, 2016, 11:45:51 PM
+    Author     : milind
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Aug, 2016, 10:28:31 PM
+    Author     : milind
+*/
+.loader7 .hourglass {
+  display: block;
+  background: #292b37;
+  width: 1em;
+  height: 2em;
+  box-shadow: inset #292b37 0 0 0 0, inset white 0 1em 0 0, inset #292b37 0 0 2em 0;
+  -webkit-animation: hourglass 1s linear infinite;
+  -moz-animation: hourglass 1s linear infinite;
+  -ms-animation: hourglass 1s linear infinite;
+  -o-animation: hourglass 1s linear infinite;
+  animation: hourglass 1s linear infinite; }
+.loader7 .outer {
+  fill: white; }
+.loader7 .middle {
+  fill: #292b37; }
+
+@-webkit-keyframes hourglass {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    box-shadow: inset #292b37 0 0 0 0, inset white 0 1em 0 0, inset #292b37 0 2em 0 0, inset white 0 2em 0 0; }
+  80% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    box-shadow: inset #292b37 0 1em 0 0, inset white 0 1em 0 0, inset #292b37 0 1em 0 0, inset white 0 2em 0 0; }
+  100% {
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    box-shadow: inset #292b37 0 1em 0 0, inset white 0 1em 0 0, inset #292b37 0 1em 0 0, inset white 0 2em 0 0; } }
+@-moz-keyframes hourglass {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    box-shadow: inset #292b37 0 0 0 0, inset white 0 1em 0 0, inset #292b37 0 2em 0 0, inset white 0 2em 0 0; }
+  80% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    box-shadow: inset #292b37 0 1em 0 0, inset white 0 1em 0 0, inset #292b37 0 1em 0 0, inset white 0 2em 0 0; }
+  100% {
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    box-shadow: inset #292b37 0 1em 0 0, inset white 0 1em 0 0, inset #292b37 0 1em 0 0, inset white 0 2em 0 0; } }
+@-ms-keyframes hourglass {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    box-shadow: inset #292b37 0 0 0 0, inset white 0 1em 0 0, inset #292b37 0 2em 0 0, inset white 0 2em 0 0; }
+  80% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    box-shadow: inset #292b37 0 1em 0 0, inset white 0 1em 0 0, inset #292b37 0 1em 0 0, inset white 0 2em 0 0; }
+  100% {
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    box-shadow: inset #292b37 0 1em 0 0, inset white 0 1em 0 0, inset #292b37 0 1em 0 0, inset white 0 2em 0 0; } }
+@-o-keyframes hourglass {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    box-shadow: inset #292b37 0 0 0 0, inset white 0 1em 0 0, inset #292b37 0 2em 0 0, inset white 0 2em 0 0; }
+  80% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    box-shadow: inset #292b37 0 1em 0 0, inset white 0 1em 0 0, inset #292b37 0 1em 0 0, inset white 0 2em 0 0; }
+  100% {
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    box-shadow: inset #292b37 0 1em 0 0, inset white 0 1em 0 0, inset #292b37 0 1em 0 0, inset white 0 2em 0 0; } }
+@keyframes hourglass {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    box-shadow: inset #292b37 0 0 0 0, inset white 0 1em 0 0, inset #292b37 0 2em 0 0, inset white 0 2em 0 0; }
+  80% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    box-shadow: inset #292b37 0 1em 0 0, inset white 0 1em 0 0, inset #292b37 0 1em 0 0, inset white 0 2em 0 0; }
+  100% {
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    box-shadow: inset #292b37 0 1em 0 0, inset white 0 1em 0 0, inset #292b37 0 1em 0 0, inset white 0 2em 0 0; } }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Aug, 2016, 9:19:37 PM
+    Author     : milind
+*/
+.loaders {
+  max-width: 100%; }
+  .loaders .box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    background: #292b37;
+    position: relative;
+    padding: 20px;
+    font-size: 150%; }
+    .loaders .box .loader1 {
+      position: absolute;
+      left: 20%;
+      top: 31%; }
+    .loaders .box .loader2 {
+      padding-top: 30px; }
+    .loaders .box .loader3 {
+      margin-top: 30px;
+      margin-left: 30px; }
+      .loaders .box .loader3--double {
+        margin-top: 27px;
+        margin-left: 27px; }
+    .loaders .box .loader4 {
+      margin-top: 37px;
+      margin-left: 46px; }
+    .loaders .box .loader7 {
+      margin-top: 22px;
+      margin-left: 38px; }
+
+/*# sourceMappingURL=style.css.map */

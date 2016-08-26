@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Aug, 2016, 11:09:07 PM
+    Author     : milind
+*/
+
+@import '../_mixins.scss';
+
+.loader5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -2.7em;
+    margin-left: -2.7em;
+    width: 5.4em;
+    height: 5.4em;
+    .hill {
+        position: absolute;
+        width: 7.1em;
+        height: 7.1em;
+        top: 1.7em;
+        left: 1.7em;
+        background-color: transparent;
+        border-left: 4px solid whitesmoke;
+        @include transform(rotate(45deg));
+    }
+    .rollingBox {
+        position: absolute;
+        left: 0;
+        bottom: -9px;
+        width: 15px;
+        height: 15px;
+        background-color: transparent;
+        border: 3px solid whitesmoke;
+        border-radius: 15%;
+        @include transform(translate(0, -1em) rotate(-45deg));
+        @include animation('push 2.5s cubic-bezier(.79, 0, .47, .97) infinite;');
+    }
+
+}
+
+@include keyframes(push){
+    0% {
+        @include transform(translate(0, -1em) rotate(-45deg));
+    }
+    5% {
+        @include transform(translate(0, -1em) rotate(-50deg));
+    }
+    20% {
+        @include transform(translate(1em, -2em) rotate(47deg));
+    }
+    25% {
+        @include transform(translate(1em, -2em) rotate(45deg));
+    }
+    30% {
+        @include transform(translate(1em, -2em) rotate(40deg));
+    }
+    45% {
+        @include transform(translate(2em, -3em) rotate(137deg));
+    }
+    50% {
+        @include transform(translate(2em, -3em) rotate(135deg));
+    }
+    55% {
+        @include transform(translate(2em, -3em) rotate(130deg));
+    }
+    70% {
+        @include transform(translate(3em, -4em) rotate(217deg));
+    }
+    75% {
+        @include transform(translate(3em, -4em) rotate(220deg));
+    }
+    100% {
+        @include transform(translate(0, -1em) rotate(-225deg));
+    }
+}
